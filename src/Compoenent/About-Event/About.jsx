@@ -14,7 +14,7 @@ const About = () => {
 
      <div className="event-schedule">
       <h1>Schedule</h1>
-      <p>Review Time Plan: Dec 2024 - Jan 2025</p>
+      <p>Submission Deadline: December 2024</p>
      </div>
 
 
@@ -23,11 +23,11 @@ const About = () => {
         <div className="submision-timeline">
 
         <div className="timeline-1">
-          <h1>Jan <br/>2025</h1>
+          <h1>Dec 24- <br/> Jan 25</h1>
         </div>
 
         <div className="info1">
-          <h1>Submission Deadline</h1>
+          <h1>Review Timeline</h1>
         </div>
 
         </div>
