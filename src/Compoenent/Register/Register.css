@@ -1,83 +1,227 @@
-.Register-header{
+.Register-header {
     background-image: url("/public/images/register.png");
     background-size: cover;
     height: 100px;
 }
 
-.Register-heading{
-    font-size: 48px;
+.Register-heading {
+    font-size: clamp(24px, 5vw, 48px);
     text-align: center;
     color: white;
     padding-top: 20px;
-
 }
 
-.form-register{
-    padding: 10px 80px;
-    font-size: 35px;
+.form-register {
+    padding: 10px 5%;
+    font-size: clamp(18px, 3vw, 35px);
     font-weight: 500;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-.fees{
-    font-size: 20px;
-    padding: 0px 80px;
-    font-size: 35px;
+.fees {
+    font-size: clamp(16px, 2.5vw, 35px);
+    padding: 0 5%;
     font-weight: 500;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
-.table-data{
-width: 20%;
-border-bottom: 1px solid rgb(255, 255, 255);
-border-right: 6px solid rgb(255, 255, 255);
-font-size: 18px;
-text-align: center;
-color: white;
-border-radius: 10px;
-
-}
-
-.table-data:last-child{
-    border-right: none;
-}
-.fees-table{
+.fees-table, .pay-table {
     border-radius: 32px;
     background: #733A75A1;
-
+    width: 100%;
+    overflow-x: auto;
 }
 
-.payment-heading{
-    padding: 0px;
-    font-size: 35px;
-    font-weight: 500;
-}
-
-.pay-table{
-    border-radius: 32px;
-    background: #733A75A1;
-
-}
-
-.payment{
-    padding: 0 80px;
-    padding-bottom: 80px;
-}
-
-.rowspan{
+.table-data {
+    width: 20%;
     border-bottom: 1px solid rgb(255, 255, 255);
     border-right: 6px solid rgb(255, 255, 255);
-    font-size: 28px;
-    text-align: left;
+    font-size: clamp(14px, 2vw, 18px);
+    text-align: center;
     color: white;
-    border-right: none;
-    padding-left: 30px;
-    font-weight: 900px;
-
-    
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.combined{
-    height: 50px;
+.table-data:last-child {
+    border-right: none;
+}
+
+.payment-heading {
+    padding: 0;
+    font-size: clamp(18px, 3vw, 35px);
+    font-weight: 500;
+}
+
+.payment {
+    padding: 0 5%;
+    padding-bottom: 40px;
+}
+
+.rowspan {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-size: clamp(16px, 2.5vw, 28px);
+    text-align: left;
+    color: white;
+    padding-left: 30px;
+    font-weight: 900;
+}
+
+.combined {
+    height: auto;
+    min-height: 50px;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .form-register, .fees, .payment {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media screen and (max-width: 1199px) {
+    .form-register, .fees, .payment {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+/* Medium-large devices (small desktops, less than 1024px) */
+@media screen and (max-width: 1024px) {
+    .Register-header {
+        height: 95px;
+    }
+
+    .form-register, .fees, .payment {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .table-data {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991px) {
+    .Register-header {
+        height: 90px;
+    }
+
+    .form-register, .fees, .payment {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .Register-header {
+        height: 80px;
+    }
+
+    .form-register, .fees, .payment {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .table-data, .rowspan {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .rowspan {
+        padding-left: 15px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575px) {
+    .Register-header {
+        height: 70px;
+    }
+
+    .Register-heading {
+        font-size: 22px;
+    }
+
+    .form-register, .fees, .payment {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .table-data, .rowspan {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .rowspan {
+        padding-left: 10px;
+    }
+
+    .payment-heading {
+        font-size: 18px;
+    }
+}
+
+/* Very small devices (small portrait phones, less than 450px) */
+@media screen and (max-width: 450px) {
+    .Register-header {
+        height: 65px;
+    }
+
+    .Register-heading {
+        font-size: 20px;
+    }
+
+    .form-register, .fees, .payment {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .table-data, .rowspan {
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    .rowspan {
+        padding-left: 8px;
+    }
+
+    .payment-heading {
+        font-size: 17px;
+    }
+}
+
+/* Extra small devices (very small portrait phones, less than 400px) */
+@media screen and (max-width: 399px) {
+    .Register-header {
+        height: 60px;
+    }
+
+    .Register-heading {
+        font-size: 18px;
+    }
+
+    .form-register, .fees, .payment {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .table-data, .rowspan {
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .rowspan {
+        padding-left: 5px;
+    }
+
+    .payment-heading {
+        font-size: 16px;
+    }
 }
