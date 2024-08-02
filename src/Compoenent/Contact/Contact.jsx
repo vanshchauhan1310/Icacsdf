@@ -1,28 +1,8 @@
 import React from 'react'
-import { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: ''
-      });
-    
-      const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prevState => ({
-          ...prevState,
-          [name]: value
-        }));
-      };
-    
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form submitted:', formData);
-        // Add your form submission logic here
-      };
-    
+        
   return (
 <>
 
@@ -33,45 +13,22 @@ const Contact = () => {
 
 
     <div className="contactus-content">
-    <form onSubmit={handleSubmit} style={styles.form}>
-    <div style={styles.inputGroup}>
-      <label htmlFor="name">Name</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        value={formData.name}
-        onChange={handleChange}
-        placeholder="Value"
-        style={styles.input}
-      />
-    </div>
-    <div style={styles.inputGroup}>
-      <label htmlFor="email">Email</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        value={formData.email}
-        onChange={handleChange}
-        placeholder="Value"
-        style={styles.input}
-      />
-    </div>
-    <div style={styles.inputGroup}>
-      <label htmlFor="message">Message</label>
-      <textarea
-        id="message"
-        name="message"
-        value={formData.message}
-        onChange={handleChange}
-        placeholder="Value"
-        style={styles.textarea}
-      />
-    </div>
-    <button type="submit" style={styles.button}>SEND</button>
-  </form>
+    
+    <div className="Enquiry-person">
+        <h2 className='enquiry'>For Enquiry :</h2>
+        <h2 className='person-name'>Dr. Vijendra Singh</h2>
+        <p className='person-adress'>Organizing Chairs <br/>
+          School of Computer Science,UPES,<br/>
+          Bidholi Via-Prem Nagar<br/>
+          Dehradun-248007</p>
 
+          <p className="person-contact">
+          Email id: info@icmlde.org;<br/>
+          vijendra.singh@ddn.upes.ac.in<br/>
+          Whatsapp: 8800642397
+          </p>
+    </div>
+        
 
   <iframe
       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27526.118375268874!2d77.97266694999999!3d30.414414400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1723602320202!5m2!1sen!2sin"

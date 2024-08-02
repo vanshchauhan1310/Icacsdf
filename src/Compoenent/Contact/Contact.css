@@ -1,27 +1,206 @@
-.Contact-header{
- background-image: url("/public/images/Contactus.png");  
- background-position: center;
-background-size: cover;
- height: 140px;
-}
-
-.contact-heading{
+.Contact-header {
+    background-image: url("/public/images/Contactus.png");
+    background-position: center;
+    background-size: cover;
+    height: 140px;
+  }
+  
+  .contact-heading {
     font-size: 40px;
     font-weight: bold;
     color: #ffffff;
     padding-left: 80px;
     padding-top: 20px;
-}
-
-.contact-para{
+  }
+  
+  .contact-para {
     font-size: 28px;
     padding-left: 80px;
     color: #ffffff;
-
-}
-
-.contactus-content{
+  }
+  
+  .contactus-content {
     display: flex;
-    gap: 100px;
     padding: 40px 80px;
-}
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+  
+  .Enquiry-person {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .enquiry {
+    padding-left: 100px;
+    font-weight: 400;
+  }
+  
+  .person-name {
+    color: #CC6600;
+    font-size: 44px;
+  }
+  
+  .person-adress {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .person-contact {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 1200px) {
+    .contactus-content {
+      gap: 150px;
+      padding: 40px 60px;
+    }
+    
+    .enquiry {
+      padding-left: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .contact-heading {
+      font-size: 38px;
+      padding-left: 60px;
+    }
+    
+    .contact-para {
+      font-size: 26px;
+      padding-left: 60px;
+    }
+    
+    .contactus-content {
+      gap: 100px;
+      padding: 40px;
+    }
+    
+    .enquiry {
+      padding-left: 60px;
+    }
+    
+    .person-name {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .contact-heading {
+      font-size: 36px;
+      padding-left: 40px;
+    }
+    
+    .contact-para {
+      font-size: 24px;
+      padding-left: 40px;
+    }
+    
+    .contactus-content {
+      flex-direction: column;
+      gap: 50px;
+    }
+    
+    .enquiry {
+      padding-left: 0;
+      text-align: center;
+    }
+    
+    .person-name {
+      font-size: 36px;
+    }
+    
+    .person-adress,
+    .person-contact {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Contact-header {
+      height: 120px;
+    }
+    
+    .contact-heading {
+      font-size: 32px;
+      padding-left: 30px;
+    }
+    
+    .contact-para {
+      font-size: 22px;
+      padding-left: 30px;
+    }
+    
+    .contactus-content {
+      padding: 30px 20px;
+    }
+    
+    .person-name {
+      font-size: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .Contact-header {
+      height: 110px;
+    }
+    
+    .contact-heading {
+      font-size: 28px;
+      padding-left: 20px;
+      padding-top: 15px;
+    }
+    
+    .contact-para {
+      font-size: 20px;
+      padding-left: 20px;
+    }
+    
+    .contactus-content {
+      padding: 25px 15px;
+    }
+    
+    .person-name {
+      font-size: 30px;
+    }
+    
+    .person-adress,
+    .person-contact {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .Contact-header {
+      height: 100px;
+    }
+    
+    .contact-heading {
+      font-size: 26px;
+      padding-left: 15px;
+      padding-top: 10px;
+    }
+    
+    .contact-para {
+      font-size: 18px;
+      padding-left: 15px;
+    }
+    
+    .contactus-content {
+      padding: 20px 10px;
+    }
+    
+    .person-name {
+      font-size: 28px;
+    }
+    
+    .person-adress,
+    .person-contact {
+      font-size: 16px;
+    }
+  }
