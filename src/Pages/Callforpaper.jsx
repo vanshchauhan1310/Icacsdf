@@ -21,7 +21,8 @@ const Callforpaper = () => {
       const listItemStyle = {
         margin: 'unset',
         fontSize: '20px',  
-        padding: 'unset',
+        listStyleType: 'disc !important',
+        listStylePosition: 'inside'
       }
 
   return (

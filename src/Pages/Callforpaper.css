@@ -1,34 +1,259 @@
-.callforpaper-content{
-    padding: 20px 80px;
+.callforpaper-content {
+    padding: 20px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.call-header{
+.call-header {
     background-image: url('/public/images/callforpaper.png');
     background-size: cover;
     background-position: center;
     height: 100px;
 }
 
-
-.call-heading{
+.call-heading {
     text-align: center;
     padding-top: 20px;
     color: white;
+    font-size: 2.5rem;
+    margin: 0;
 }
 
-.call-para1{
-    font-size: 20px;
+.call-para1 {
+    font-size: 1.25rem;
     padding-bottom: 20px;
 }
-.call1{
+
+.call1 {
     font-weight: 700;
     color: red;
 }
 
-.paper-objective{
+.paper-objective {
     padding-top: 20px;
     padding-bottom: 10px;
     padding-inline: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: unset;
+}
+
+/* Responsive table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Responsive list styles */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1400px) {
+    .callforpaper-content {
+        padding: 20px 4%;
+    }
+
+    .call-heading {
+        font-size: 2.3rem;
+    }
+
+    .call-para1, .paper-objective {
+        font-size: 1.2rem;
+    }
+
+    li {
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .call-heading {
+        font-size: 2.1rem;
+    }
+
+    .call-para1, .paper-objective {
+        font-size: 1.15rem;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .callforpaper-content {
+        padding: 18px 3.5%;
+    }
+
+    .call-heading {
+        font-size: 1.9rem;
+    }
+
+    .call-para1, .paper-objective {
+        font-size: 1.1rem;
+    }
+
+    th, td {
+        padding: 9px;
+        font-size: 0.9rem;
+    }
+
+    li {
+        font-size: 0.95rem;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .call-header {
+        height: 90px;
+    }
+
+    .call-heading {
+        font-size: 1.8rem;
+        padding-top: 18px;
+    }
+
+    .call-para1, .paper-objective {
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .call-header {
+        height: 80px;
+    }
+
+    .call-heading {
+        font-size: 1.7rem;
+        padding-top: 16px;
+    }
+
+    .call-para1, .paper-objective {
+        font-size: 1rem;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 0.85rem;
+    }
+
+    li {
+        font-size: 0.9rem;
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .callforpaper-content {
+        padding: 16px 3%;
+    }
+
+    .call-header {
+        height: 70px;
+    }
+
+    .call-heading {
+        font-size: 1.5rem;
+        padding-top: 14px;
+    }
+
+    .call-para1, .paper-objective ,li{
+        font-size: 0.95rem;
+    }
+
+    th, td {
+        padding: 7px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .callforpaper-content {
+        padding: 14px 2.5%;
+    }
+
+    .call-header {
+        height: 60px;
+    }
+
+    .call-heading {
+        font-size: 1.3rem;
+        padding-top: 12px;
+    }
+
+    .call-para1, .paper-objective{
+        font-size: 20px     ;
+    }
+
+    th, td {
+        padding: 6px;
+        font-size: 0.75rem;
+    }
+
+    li {
+        font-size: 0.85rem;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .call-heading {
+        font-size: 1.2rem;
+        padding-top: 10px;
+    }
+
+    .call-para1, .paper-objective {
+        font-size: 20px;
+    }
+
+    .paper-objective li {
+        font-size: 16px !important;
+    }
+
+    th, td {
+        padding: 5px;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .call-heading {
+        font-size: 1.1rem;
+    }
+
+    .call-para1, .paper-objective {
+        font-size: 0.8rem;
+    }
+
+    .paper-objective li{
+        font-size: 16px !important;
+    }
+
+    th, td {
+        padding: 4px;
+        font-size: 0.65rem;
+    }
+
+    li {
+        font-size: 0.8rem;
+        margin-bottom: 4px;
+    }
 }
