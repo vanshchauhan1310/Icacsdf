@@ -1,61 +1,234 @@
-.Team-wrapper{
+.Team-wrapper {
     background: linear-gradient(90deg, #703A75 0%, #392D7E 100%);
 }
 
-.Team{
-    padding-top: 40px;
+.Team {
+    padding-top: 2.5rem;
 }
 
-.Position{
-    margin: unset;
-    padding: 10px 60px;
+.Position {
+    margin: 0;
+    padding: 0.625rem 5%;
     color: white;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
-.name{
-    margin: unset;
-    padding-inline: 60px;
+.name {
+    margin: 0;
+    padding: 0 5% 1.25rem 5%;
     color: white;
-    font-size: 23px;
-    padding-bottom: 20px;
+    font-size: 1.4375rem;
 }
 
-.Comittee{
-    margin: unset;
-    /* text-align: center; */
+.Comittee {
+    margin: 0;
     text-decoration: underline;
     color: white;
-    padding: 0PX 50PX;
-    padding-bottom: 20px;
+    padding: 0 5% 1.25rem 5%;
 }
 
-.category{
+.category {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 44px;
+    font-size: 2.75rem;
     color: white;
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
-.subcategory{
-    font-size: 42px;
+.subcategory {
+    font-size: 2.625rem;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 40px;
+    padding-left: 2.5rem;
     font-weight: 600;
-    padding-top: 30px;
+    padding-top: 1.875rem;
 }
 
-.list{
+.list {
     list-style: none;
-
+    padding-left: 0;
 }
 
-.nameofmember{
+.nameofmember {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 34px;
+    font-size: 2.125rem;
     color: white;
-    padding-left: 48px;
+    padding-left: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .Position {
+        font-size: 1.4rem;
+    }
+    .name {
+        font-size: 1.3rem;
+    }
+    .category {
+        font-size: 2.5rem;
+    }
+    .subcategory {
+        font-size: 2.3rem;
+    }
+    .nameofmember {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Position {
+        font-size: 1.35rem;
+        padding: 0.55rem 4.5%;
+    }
+    .name {
+        font-size: 1.25rem;
+        padding: 0 4.5% 1.1rem 4.5%;
+    }
+    .Comittee {
+        padding: 0 4.5% 1.1rem 4.5%;
+    }
+    .category {
+        font-size: 2.3rem;
+    }
+    .subcategory {
+        font-size: 2.1rem;
+        padding-left: 2.2rem;
+    }
+    .nameofmember {
+        font-size: 1.8rem;
+        padding-left: 2.7rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Position {
+        font-size: 1.3rem;
+        padding: 0.5rem 4%;
+    }
+    .name {
+        font-size: 1.2rem;
+        padding: 0 4% 1rem 4%;
+    }
+    .Comittee {
+        padding: 0 4% 1rem 4%;
+    }
+    .category {
+        font-size: 2.2rem;
+    }
+    .subcategory {
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+    .nameofmember {
+        font-size: 1.7rem;
+        padding-left: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Position {
+        font-size: 1.2rem;
+        padding: 0.5rem 3%;
+    }
+    .name {
+        font-size: 1.1rem;
+        padding: 0 3% 1rem 3%;
+    }
+    .Comittee {
+        padding: 0 3% 1rem 3%;
+    }
+    .category {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    .subcategory {
+        font-size: 1.8rem;
+        padding-left: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    .nameofmember {
+        font-size: 1.5rem;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Position {
+        font-size: 1.1rem;
+        padding: 0.4rem 2.5%;
+    }
+    .name {
+        font-size: 1rem;
+        padding: 0 2.5% 0.9rem 2.5%;
+    }
+    .Comittee {
+        padding: 0 2.5% 0.9rem 2.5%;
+    }
+    .category {
+        font-size: 1.8rem;
+        padding-top: 0.9rem;
+    }
+    .subcategory {
+        font-size: 1.6rem;
+        padding-left: 1.25rem;
+        padding-top: 1.25rem;
+    }
+    .nameofmember {
+        font-size: 1.3rem;
+        padding-left: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Position {
+        font-size: 1rem;
+        padding: 0.375rem 2%;
+    }
+    .name {
+        font-size: 0.9375rem;
+        padding: 0 2% 0.75rem 2%;
+    }
+    .Comittee {
+        padding: 0 2% 0.75rem 2%;
+    }
+    .category {
+        font-size: 1.5rem;
+        padding-top: 0.75rem;
+    }
+    .subcategory {
+        font-size: 1.375rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .nameofmember {
+        font-size: 1.125rem;
+        padding-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Position {
+        font-size: 0.9rem;
+        padding: 0.3rem 1.5%;
+    }
+    .name {
+        font-size: 0.85rem;
+        padding: 0 1.5% 0.6rem 1.5%;
+    }
+    .Comittee {
+        padding: 0 1.5% 0.6rem 1.5%;
+    }
+    .category {
+        font-size: 1.3rem;
+        padding-top: 0.6rem;
+    }
+    .subcategory {
+        font-size: 1.2rem;
+        padding-left: 0.8rem;
+        padding-top: 0.8rem;
+    }
+    .nameofmember {
+        font-size: 1rem;
+        padding-left: 1.2rem;
+    }
 }
