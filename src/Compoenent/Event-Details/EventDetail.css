@@ -1,0 +1,62 @@
+.info-heading{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    margin: unset;
+    /* padding-bottom: 20px; */
+}
+
+.event-timming{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    gap: 20px;
+
+}
+
+.countdown{
+    box-shadow: 0px 0px 38px 8px #8f00ffb8;
+    padding: 20px;
+    width: 337px;
+    border-radius: 100px;
+    background: #000000;
+}
+
+.countdown-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    font-size: 39px;
+    color: white;
+}
+
+.horizontal-rule{
+    width: 473px;
+}
+
+.horizontal-rule hr{
+    border-top: 4px solid #000000;
+    margin: unset;
+}
+
+.date{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+
+.venue{
+    font-size: 27px;
+    font-weight: 700;
+    color: black;
+    margin: unset;
+}
+
+.location{
+    font-size: 30px;
+    font-weight: 700px;
+    color: black;
+}

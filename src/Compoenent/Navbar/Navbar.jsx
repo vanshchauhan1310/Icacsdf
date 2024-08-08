@@ -1,0 +1,26 @@
+import React from 'react';
+import './Navbar.css';
+
+const Navbar = () => {
+  return (
+    <div className="Navbar-wrapper">
+      <div className="Navbar-container">
+        <div className="Navbar-logo">
+          <h1 className="nav-heading">ICACSDF-25</h1>
+        </div>
+        <nav className="Navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Comittee</a></li>
+            <li><a href="#">Call for Paper</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="#">Contact-Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
