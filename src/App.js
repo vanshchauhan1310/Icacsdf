@@ -5,6 +5,7 @@ import MasterHead from './Compoenent/MasterHead/MasterHead';
 import EventDetail from './Compoenent/Event-Details/EventDetail';
 import About from './Compoenent/About-Event/About';
 import Objective from './Compoenent/Objective/Objective';
+import ConferenceTopic from './Compoenent/ConferenceTopic/ConferenceTopic';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <EventDetail />
     <About />
     <Objective/>
+    <ConferenceTopic/>
     </>
   );
 

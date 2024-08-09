@@ -14,12 +14,12 @@ const Objective = () => {
         <li>Focus on Emerging Trends</li>
         <li>Interactive Sessions</li>
         <li>Continuous Improvement</li>
-        <li className='last-li'><img src='/brain-strom.png' height={400} width={300}/></li>
+        <li className='last-li'><img src='/brain-strom.png' height={300} width={300}/></li>
         </ul>
     </div>
 
     <div className="objectives">
-        <h1>Objectives</h1>
+        <h1 className='objective-heading'>Objectives</h1>
         <ul>
             <li>Share Knowledge, Research Findings, And Innovative Ideas, Products, And Services.</li>
             <li>Foster Collaboration, Partnerships, Joint Projects, And Business Opportunities.</li>
