@@ -1,59 +1,59 @@
 export const ConferenceData = [
     {
       title: "Biometrics & Cryptography",
-      imageSrc: "/placeholder.svg",
+      imageSrc: "/images/Biometric.png",
     },
     {
       title: "Cloud Computing Security",
-      imageSrc: "/ai-placeholder.svg",
+      imageSrc: "/images/cloudcomputing.png",
     },
     {
       title: "Computer Forensics",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/computer-forensics.png",
     },
     {
       title: "Cyber Physical Systems \n Security",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/cyberphysical.png",
     },
     {
       title: "Database & System Security",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/Database.png",
     },
     {
       title: "Information Hiding & Watermarking",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/information.png",
     },
     {
       title: "Internet of Things Security",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/IOT.png",
     },
     {
       title: "Key Management & Secure Communication",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/Key Management.png",
     },
     {
       title: "Malware Analysis & Detection",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/networksecurity.png",
     },
     {
       title: "Network Security & Privacy",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/networksecurity.png",
     },
     {
       title: "Security Protocols",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/security protocoal.png",
     },
     {
       title: "Security Testing & Auditing",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/secyrity-testing.png",
     },
     {
       title: "Software Security",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/software-security.png",
     },
     {
       title: "Web Security",
-      imageSrc: "/cloud-placeholder.svg",
+      imageSrc: "/images/webSecurity.png",
     },
     
 

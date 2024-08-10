@@ -6,6 +6,7 @@ import EventDetail from './Compoenent/Event-Details/EventDetail';
 import About from './Compoenent/About-Event/About';
 import Objective from './Compoenent/Objective/Objective';
 import ConferenceTopic from './Compoenent/ConferenceTopic/ConferenceTopic';
+import Footer from './Compoenent/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <About />
     <Objective/>
     <ConferenceTopic/>
+    <Footer/>
     </>
   );
 

@@ -1,0 +1,43 @@
+.footer-container{
+    background: #302F2F;
+    padding-inline: 82px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 350px;
+}
+
+.upes-logo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upes-logo img{
+    width: 147px;
+    height: 50px;
+}
+
+.Contact-heading{
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.About-heading{
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+.About-para{
+    font-size: 19px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.Contact-para{
+    font-size: 19px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
