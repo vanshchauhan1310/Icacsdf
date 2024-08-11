@@ -1,7 +1,7 @@
 import React from 'react';
 import './MasterHead.css';
 
-const YourComponent = () => {
+const MasterHead = () => {
   return (
     <div className="master-head">
 
@@ -18,4 +18,4 @@ const YourComponent = () => {
   );
 };
 
-export default YourComponent;
+export default MasterHead;

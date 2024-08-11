@@ -15,7 +15,7 @@ const About = () => {
      <div className="event-schedule">
       <h1>Schedule</h1>
       <p>Review Time Plan: Dec 2024 - Jan 2025</p>
-     </div>cloud_download
+     </div>
 
 
       <div className="event-timeline">
