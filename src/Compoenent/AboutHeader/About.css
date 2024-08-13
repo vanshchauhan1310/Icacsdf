@@ -59,3 +59,19 @@
     display: flex;
     gap: 60px;
 }
+
+.About-ddn{
+
+}
+
+.ddnWrapper{
+    padding-inline: 60px;
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    gap: 80px;
+}
+
+.ddn-para{
+    font-size: 20px;
+}

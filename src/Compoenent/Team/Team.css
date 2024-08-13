@@ -1,0 +1,29 @@
+.Team-wrapper{
+    background: linear-gradient(90deg, #703A75 0%, #392D7E 100%);
+}
+
+.Team{
+    padding-top: 40px;
+}
+
+.Position{
+    margin: unset;
+    padding: 10px 60px;
+    color: white;
+    font-size: 25px;
+}
+
+.name{
+    margin: unset;
+    padding-inline: 60px;
+    color: white;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.Comittee{
+    margin: unset;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}

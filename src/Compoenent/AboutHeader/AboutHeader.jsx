@@ -13,7 +13,7 @@ const AboutHeader = () => {
     <span className='para1'>The International Conference on Advancement in Cyber Security and Digital Forensics (ICACSDF - 2025) </span>is a premier forum that brings<br/> 
     together researchers, practitioners, and professionals from academia, industry, and government who are working in the field of cyber security,<br/> 
     privacy, and digital forensics. The conference will be held in Dehradun, India during 25-27 March 2025. The conference will be <br/>
-    technically co-sponsored by IEEE UP Section.<br/>
+    technically co-sponsored by Springer.<br/>
     <br/>
     The conference will feature keynote speeches, technical presentations, workshops, tutorials, and invited talks. The technical sessions will<br/>
      present original and fundamental research advances while the workshops will focus on the latest topics in cyber security, privacy,<br/>
@@ -41,6 +41,28 @@ const AboutHeader = () => {
         
         </div>
 
+    </div>
+
+
+    <div className="ddnWrapper">
+        <div className="ddn-img">
+            <img src='/images/ddn.png' height={400} width={600}/>
+        </div>
+        <div className="About-ddn">
+            <h1 className='ddn-heading'>About Dehradun</h1>
+            <p className='ddn-para'>Dehradun is the capital city of the Indian state of Uttarakhand. It is located in the Doon Valley on the <br/> 
+            foothills of the Himalayas. Dehradun is known for its picturesque landscapes, pleasant climate, <br/>
+            and educational institutions. The city is home to several prestigious schools, colleges, and universities, <br/> 
+            including the Indian Military Academy (IMA), the Forest Research Institute (FRI), and the<br/>
+             University of Petroleum and Energy Studies (UPES).
+             <br/>
+             <br/>
+Dehradun is also a popular tourist destination, with attractions such as the Robber's Cave, the Sahastradhara  <br/> waterfall,
+and the Mindrolling Monastery. The city is well-connected by road, rail, and air, with regular flights <br/>  to major cities in
+ India. Dehradun is also a gateway to the hill stations of Mussoorie, Nainital, and <br/> 
+ Rishikesh, making it an ideal destination for nature lovers and adventure
+  enthusiasts.</p>
+        </div>
     </div>
     </>
   )
