@@ -23,7 +23,9 @@
 
 .Comittee{
     margin: unset;
-    text-align: center;
+    /* text-align: center; */
     text-decoration: underline;
     color: white;
+    padding: 0PX 50PX;
+    padding-bottom: 20px;
 }

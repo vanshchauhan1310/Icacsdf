@@ -19,25 +19,74 @@ const Register = () => {
         <table className='fees-table'>
       <tbody>
         <tr>
-          <td className='table-data'>Student</td>
+          <td className='table-data'>Category</td>
+          <td className='table-data'>Registration Deadline</td>
+      
+        </tr>
+        <tr className='combined'>
+          <td className='rowspan'>INDIAN DELEGATES (INR)</td>  
           <td className='table-data'></td>
-          <td className='table-data'></td>
+     
         </tr>
         <tr>
-          <td className='table-data'>Faculty</td>  
-          <td className='table-data'></td>
-          <td className='table-data'></td>
+          <td className='table-data'>Regular Author</td>
+          <td className='table-data'>11000</td>
+       
         </tr>
         <tr>
-          <td className='table-data'>Industry</td>
-          <td className='table-data'></td>
-          <td className='table-data'></td>
+          <td className='table-data'>Students Author</td>
+          <td className='table-data'>10500</td>
         </tr>
         <tr>
-          <td className='table-data'>Accompanying Person</td>
-          <td className='table-data'></td>
+          <td className='table-data'>Industry Professional</td>
+          <td className='table-data'>12500</td>
+        </tr>
+        <tr>
+          <td className='table-data'>2nd paper, Regular Author</td>
+          <td className='table-data'>10000</td>
+        </tr>
+        <tr>
+          <td className='table-data'>Listener (Non-Author/Co- Author/General Participants)</td>
+          <td className='table-data'>5000 (per person)</td>
+        </tr>
+
+        <tr className='combined'>
+          <td className='rowspan'>INTERNATIONAL DELEGATES (US $)</td>  
           <td className='table-data'></td>
         </tr>
+
+        <tr>
+          <td className='table-data'>Regular Author</td>
+          <td className='table-data'>	350</td>
+        </tr>
+        <tr>
+          <td className='table-data'>Students Author</td>
+          <td className='table-data'>300</td>
+        </tr>
+        <tr>
+          <td className='table-data'>2nd paper, Regular Author</td>
+          <td className='table-data'>250</td>
+        </tr>
+        <tr>
+          <td className='table-data'>Listener (Non-Author/Co- Author/General Participants)</td>
+          <td className='table-data'>150</td>
+        </tr>
+
+
+        <tr className='combined'>
+          <td className='rowspan'>WORKSHOP</td>  
+          <td className='table-data'></td>
+        </tr>
+
+        <tr>
+          <td className='table-data'>Registered Authors of ICMLDE 2024</td>
+          <td className='table-data'>	Free</td>
+        </tr>
+        <tr>
+          <td className='table-data'>Non-Author/General Participants</td>
+          <td className='table-data'>4000(Indian Rupees)per person</td>
+        </tr>
+
       </tbody>
     </table>
     </div>

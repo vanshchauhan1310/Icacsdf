@@ -252,50 +252,50 @@ const teamData = [
         { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
       ]
     },
-    {
-      category: "Publication Committee",
-      members: [
-        // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
-      ]
-    },
-    {
-      category: "Registration Committee",
-      members: [
-        // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
-      ]
-    },
+    // {
+    //   category: "Publication Committee",
+    //   members: [
+    //     // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
+    //   ]
+    // },
+    // {
+    //   category: "Registration Committee",
+    //   members: [
+    //     // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
+    //   ]
+    // },
 
-    {
-      category: "Website & It Support Committee",
-      members: [
-        // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
-      ]
-    },
-    {
-      category: "Local Management Committee",
-      members: [
-        // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
-      ]
-    },
+    // {
+    //   category: "Website & It Support Committee",
+    //   members: [
+    //     // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
+    //   ]
+    // },
+    // {
+    //   category: "Local Management Committee",
+    //   members: [
+    //     // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
+    //   ]
+    // },
 
-    {
-      category: "Cultural Committee",
-      members: [
-        // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
-      ]
-    },
-    {
-      category: "Hospitality Committee",
-      members: [
-        // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
-      ]
-    },
-    {
-      category: "Event Committee",
-      members: [
-        // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
-      ]
-    }
+    // {
+    //   category: "Cultural Committee",
+    //   members: [
+    //     // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
+    //   ]
+    // },
+    // {
+    //   category: "Hospitality Committee",
+    //   members: [
+    //     // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
+    //   ]
+    // },
+    // {
+    //   category: "Event Committee",
+    //   members: [
+    //     // { name: "Dr. Keshav Sinha", position: "UPES, Dehradun" }
+    //   ]
+    // }
   ];
   
   export default teamData;
