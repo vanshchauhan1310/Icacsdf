@@ -6,6 +6,8 @@ import HomePage from './Pages/HomePage';
 import TeamPage from './Pages/TeamPage';
 import Callforpaper from './Pages/Callforpaper';
 import AboutPage from './Pages/AboutPage';
+import ContactUs from './Pages/ContactUs';
+import Registration from './Pages/Registration';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 
 function App() {
@@ -18,7 +20,8 @@ function App() {
           <Route path="/about" element={<AboutPage/>}/>
           <Route path="/committee" element={<TeamPage/>}/>
           <Route path="/callforpaper" element={<Callforpaper/>}/>
-          <Route path="/committee" element={<TeamPage/>}/>
+          <Route path="/register" element={<Registration/>}/>
+          <Route path="/contact" element={<ContactUs/>}/>
         </Routes>
     </Router>
     <Footer/>

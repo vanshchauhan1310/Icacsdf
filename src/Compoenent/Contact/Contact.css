@@ -1,0 +1,27 @@
+.Contact-header{
+ background-image: url("/public/images/Contactus.png");  
+ background-position: center;
+background-size: cover;
+ height: 140px;
+}
+
+.contact-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.contact-para{
+    font-size: 28px;
+    padding-left: 80px;
+    color: #ffffff;
+
+}
+
+.contactus-content{
+    display: flex;
+    gap: 100px;
+    padding: 40px 80px;
+}

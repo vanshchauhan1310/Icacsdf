@@ -1,0 +1,66 @@
+.Register-header{
+    background-image: url("/public/images/register.png");
+    background-size: cover;
+    height: 100px;
+}
+
+.Register-heading{
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+
+}
+
+.form-register{
+    padding: 10px 80px;
+    font-size: 35px;
+    font-weight: 500;
+    display: flex;
+    gap: 20px;
+}
+
+.fees{
+    font-size: 20px;
+    padding: 0px 80px;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+.table-data{
+width: 20%;
+border-bottom: 1px solid rgb(255, 255, 255);
+border-right: 6px solid rgb(255, 255, 255);
+font-size: 18px;
+text-align: center;
+color: white;
+border-radius: 10px;
+
+}
+
+.table-data:last-child{
+    border-right: none;
+}
+.fees-table{
+    border-radius: 32px;
+    background: #733A75A1;
+
+}
+
+.payment-heading{
+    padding: 0px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.pay-table{
+    border-radius: 32px;
+    background: #733A75A1;
+
+}
+
+.payment{
+    padding: 0 80px;
+    padding-bottom: 80px;
+}

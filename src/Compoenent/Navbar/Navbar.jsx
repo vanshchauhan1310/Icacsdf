@@ -14,8 +14,8 @@ const Navbar = () => {
             <li><a href="/about">About</a></li>
             <li><a href="/committee">Comittee</a></li>
             <li><a href="/callforpaper">Call for Paper</a></li>
-            <li><a href="#">Registration</a></li>
-            <li><a href="#">Contact-Us</a></li>
+            <li><a href="/register">Registration</a></li>
+            <li><a href="/contact">Contact-Us</a></li>
           </ul>
         </nav>
       </div>
