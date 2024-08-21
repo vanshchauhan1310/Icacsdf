@@ -1,34 +1,88 @@
-.Navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    padding-right: 60px;
-  }
-  
-  .Navbar-links ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-heading{
-    color: white;
-    font-weight: 700;
-    padding-left: 30px;
-  }
-  .Navbar-links li {
-    margin-left: 20px;
-  }
-  
-  .Navbar-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
+.Navbar-wrapper {
+  background-color: #2F2F30;
 }
 
-  .Navbar-wrapper{
-    background-color:#2F2F30;
+.Navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-right: 60px;
+}
+
+.Navbar-logo {
+  padding-left: 30px;
+}
+
+.nav-heading {
+  color: white;
+  font-weight: 700;
+}
+
+.Navbar-links ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar-links li {
+  margin-left: 20px;
+}
+
+.Navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  transition: all 0.3s;
+}
+
+.hamburger:hover span {
+  background-color: #ccc;
+}
+
+/* Show hamburger menu on smaller screens */
+@media only screen and (max-width: 768px) {
+  .Navbar-links ul {
+    display: none;
   }
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Show menu when hamburger is clicked */
+.Navbar-links ul.show {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #2F2F30;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.Navbar-links ul.show li {
+  margin-left: 0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.Navbar-links ul.show li:last-child {
+  border-bottom: none;
+}
