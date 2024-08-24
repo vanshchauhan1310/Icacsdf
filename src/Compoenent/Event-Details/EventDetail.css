@@ -63,13 +63,14 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
     .info-heading {
         font-size: 2rem;
     }
 
     .countdown-display {
-        font-size: 42px;
+        font-size: 38px;
     }
 
     .date {
@@ -85,13 +86,13 @@
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) { 
     .info-heading {
         font-size: 1.875rem;
     }
 
     .countdown-display {
-        font-size: 42px;
+        font-size: 41px;
         gap: 1.75rem;
     }
 

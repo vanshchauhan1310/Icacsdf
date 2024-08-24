@@ -1,126 +1,264 @@
-.About-Wrapper{
-    padding-inline: 45px;
-    padding-block: 40px;
+/* Base styles (for mobile devices) */
+.About-Wrapper {
+    padding: 15px;
 }
 
-.About-container{
-    border-radius: 100px;
+.About-container {
+    border-radius: 30px;
     height: auto;
     background: #8F00FF17;
     box-shadow: 0px 0px 14px 1px #000000;
-    padding-bottom: 20px;
-
+    padding: 15px;
 }
 
-.Aboutcontent{
-    padding: 40px;
+.Aboutcontent {
+    padding: 15px;
 }
 
-.Aboutcontent h1{
+.Aboutcontent h1 {
     text-align: center;
-    margin: unset;
-    padding-bottom: 20px;
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 20px;
 }
 
-.Aboutcontent p{
-    font-size: 25px;
+.Aboutcontent p {
+    font-size: 14px;
     text-align: center;
 }
 
-.event-schedule h1{
-text-align: center;
+.event-schedule h1 {
+    text-align: center;
+    font-size: 20px;
 }
 
-.event-schedule p{
+.event-schedule p {
     text-align: center;
-    font-size: 23px;
+    font-size: 16px;
     font-weight: 600;
-}
-
-.event-timeline{
-    display: flex;
-    gap: 200px;
-    align-items: center;
-    justify-content: center;
-
-}
-.timeline-1 {
-    border-radius: 100px;
-    padding: 30px;
-    background-color: #733A75;
-    height: 114px;
-    text-align: center;
-}
-.timeline-2 {
-    border-radius: 100px;
-    padding: 30px;
-    background-color: #733A75;
-    height: 127px;
-    text-align: center;
-}
-
-.timeline-3 {
-    border-radius: 68px;
-    height: 125px;
-    background-color: #733A75;
-    padding-top: 24px;
-    width: 125px;
-}
-    
-.timeline-1 h1 {
-     font-size: 23px;
-     font-weight: 700px;
-     color: white;
-}
-.timeline-2 h1 {
-    font-size: 23px;
-    font-weight: 700px;
-    color: white ;
-}
-.timeline-3 h1 {
-    font-size: 23px;
-    font-weight: 700px;
-    color: white ;
-    text-align: center;
-}
-
-.timeline-info{
-    display: flex;
-    align-items: center;
-    padding-right: 220px;
 }
 
 .event-timeline {
     display: flex;
-    gap: 256px;
+    flex-wrap: wrap;
+    gap: 15px;
     align-items: center;
-    padding-inline: 300px;
-    margin-bottom: 17px;
-  }
-  
-  .timeline-info {
+    justify-content: center;
+    padding: 15px;
+}
+
+.timeline-1, .timeline-2, .timeline-3 {
+    border-radius: 100px;
+    padding: 15px;
+    background-color: #733A75;
+    width: 80px;
+    height: 80px;
     display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    padding-inline: 300px;
-  }
-  
-  .timeline-info > div {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.timeline-1 h1, .timeline-2 h1, .timeline-3 h1 {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.timeline-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.timeline-info > div {
     flex: 1;
+    min-width: 150px;
     text-align: center;
-  }
-.info1 h1{
-    font-size: 21px;
+}
+
+.info1 h1, .info2 h1, .info3 h1 {
+    font-size: 16px;
     font-weight: 500;
     text-align: center;
 }
-.info2 h1{
-    font-size: 21px;
-    font-weight: 500;
-    text-align: center;
+
+.submision-timeline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.info3 h1{
-    font-weight: 500;
-    font-size: 21px;
-    text-align: center;
+
+.submision-deadline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.notification-deadline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .About-Wrapper {
+        padding: 20px;
+    }
+
+    .About-container {
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    .Aboutcontent {
+        padding: 20px;
+    }
+
+    .Aboutcontent h1 {
+        font-size: 22px;
+    }
+
+    .Aboutcontent p {
+        font-size: 16px;
+    }
+
+    .event-schedule h1 {
+        font-size: 22px;
+    }
+
+    .event-schedule p {
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .About-Wrapper {
+        padding: 30px;
+    }
+
+    .About-container {
+        border-radius: 60px;
+        padding: 30px;
+    }
+
+    .Aboutcontent {
+        padding: 30px;
+    }
+
+    .Aboutcontent h1 {
+        font-size: 26px;
+    }
+
+    .Aboutcontent p {
+        font-size: 18px;
+    }
+
+    .event-timeline {
+        gap: 30px;
+    }
+
+    .timeline-1, .timeline-2, .timeline-3 {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .timeline-1 h1, .timeline-2 h1, .timeline-3 h1 {
+        font-size: 18px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .About-Wrapper {
+        padding: 40px;
+    }
+
+    .About-container {
+        border-radius: 80px;
+        padding: 40px;
+    }
+
+    .Aboutcontent {
+        padding: 40px;
+    }
+
+    .Aboutcontent h1 {
+        font-size: 30px;
+    }
+
+    .Aboutcontent p {
+        font-size: 22px;
+    }
+
+    .event-timeline {
+        gap: 100px;
+        padding-inline: 100px;
+    }
+
+    .timeline-1, .timeline-2, .timeline-3 {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+    }
+
+    .timeline-1 h1, .timeline-2 h1, .timeline-3 h1 {
+        font-size: 20px;
+    }
+
+    .timeline-info {
+        padding-inline: 100px;
+    }
+
+    .info1 h1, .info2 h1, .info3 h1 {
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .About-Wrapper {
+        padding-inline: 45px;
+        padding-block: 40px;
+    }
+
+    .About-container {
+        border-radius: 100px;
+    }
+
+    .Aboutcontent h1 {
+        font-size: 32px;
+    }
+
+    .Aboutcontent p {
+        font-size: 25px;
+    }
+
+    .event-timeline {
+        gap: 117px;
+        padding-inline: 300px;
+    }
+
+    .timeline-info {
+        padding-inline: 300px;
+    }
+
+    .timeline-1 h1, .timeline-2 h1, .timeline-3 h1 {
+        font-size: 23px;
+    }
+
+    .info1 h1, .info2 h1, .info3 h1 {
+        font-size: 21px;
+    }
 }
