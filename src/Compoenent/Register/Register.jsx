@@ -79,7 +79,7 @@ const Register = () => {
         </tr>
 
         <tr>
-          <td className='table-data'>Registered Authors of ICMLDE 2024</td>
+          <td className='table-data'>Registered Authors of ICACSDF 2024</td>
           <td className='table-data'>	Free</td>
         </tr>
         <tr>
