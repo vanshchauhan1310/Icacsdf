@@ -1,77 +1,264 @@
-.About-header{
+.About-header {
     background-image: url('/public/images/about-wrapper.png');
     background-size: cover;
     background-position: center;
     height: 100px;
 }
 
-.header-heading{
+.header-heading {
     font-size: 42px;
     font-weight: bold;
     color: #fff;
     text-align: center;
-    padding: 20px 409px 50px 400px;
+    padding: 20px 5%;
 }
 
-.para1{
+.para1 {
     font-size: 18px;
     color: #000000;
     font-weight: 700;
 }
 
-.content-para{
-    padding: 36px 74px;
+.content-para {
+    padding: 36px 5%;
     color: #535353;
     text-align: center;
     font-size: 20px;
 }
 
-.About-upes{
+.About-upes {
     border: 2px solid #733A754A;
     background-color: #9F71A34D;
     box-shadow: -4px 6px 6px 0px #00000063;
-
 }
 
-.upes-heading{
+.upes-heading {
     text-align: left;
-}
-.upes-wrapper{
-    padding: 20px 60px;
-}
-
-.upes-heading{
     font-size: 36px;
     font-weight: bold;
     color: #000000;
-    padding-left: 60px;
-    padding-top: 20px;
-    padding-bottom: unset;
+    padding: 20px 5%;
 }
 
-.upes-para{
-    padding: 10px 60px;
-    width: 60%;
+.upes-wrapper {
+    padding: 20px 5%;
+}
+
+.upes-para {
+    padding: 10px 5%;
     font-size: 22px;
+    width: 90%;
 }
 
-.upes-content{
+.upes-img{
     display: flex;
-    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: unset;
 }
 
-.About-ddn{
-
-}
-
-.ddnWrapper{
-    padding-inline: 60px;
-    padding-top: 20px;
+.upes-content {
     display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-bottom: 20px;
-    gap: 80px;
 }
 
-.ddn-para{
+.upes-img img {
+    max-width: 100%;
+    height: 320px;
+}
+
+.ddnWrapper {
+    padding: 20px 5%;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.ddn-img img {
+    /* max-width: 100%;
+    height: auto; */
+    border-radius: 40px;
+}
+
+.ddn-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ddn-para {
     font-size: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .upes-para {
+        width: 70%;
+    }
+    .ddn-para {
+        font-size: 18px;
+    }
+    .ddn-heading{
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .upes-para {
+        width: 100%;
+    }
+    
+    .header-heading {
+        font-size: 38px;
+    }
+    .ddn-para {
+        font-size: 16px;
+    }
+    .ddn-heading{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-heading {
+        font-size: 36px;
+    }
+    
+    .content-para {
+        font-size: 19px;
+    }
+    
+    .upes-heading {
+        font-size: 34px;
+    }
+    
+    .upes-para {
+        font-size: 21px;
+    }
+    
+    .ddn-para {
+        font-size: 20px;
+    }
+    
+    .upes-content {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .ddn-heading{
+        font-size: 34px;
+    }
+    .ddnWrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header-heading {
+        font-size: 34px;
+    }
+    
+    .content-para {
+        font-size: 18px;
+    }
+    
+    .upes-heading {
+        font-size: 32px;
+    }
+    
+    .upes-para {
+        font-size: 20px;
+    }
+    
+    .ddn-para {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-heading {
+        font-size: 30px;
+    }
+    
+    .content-para {
+        font-size: 17px;
+    }
+    
+    .upes-heading {
+        font-size: 28px;
+    }
+    
+    .upes-para {
+        font-size: 18px;
+    }
+    
+    .ddn-para {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-heading {
+        font-size: 26px;
+    }
+    
+    .content-para {
+        font-size: 16px;
+    }
+    
+    .upes-heading {
+        font-size: 26px;
+    }
+    
+    .upes-para {
+        font-size: 17px;
+    }
+    
+    .ddn-para {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-heading {
+        font-size: 24px;
+    }
+    
+    .content-para {
+        font-size: 15px;
+    }
+    
+    .upes-heading {
+        font-size: 24px;
+    }
+    
+    .upes-para {
+        font-size: 16px;
+    }
+    
+    .ddn-para {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header-heading {
+        font-size: 22px;
+    }
+    
+    .content-para {
+        font-size: 14px;
+    }
+    
+    .upes-heading {
+        font-size: 22px;
+    }
+    
+    .upes-para {
+        font-size: 15px;
+    }
+    
+    .ddn-para {
+        font-size: 14px;
+    }
 }
