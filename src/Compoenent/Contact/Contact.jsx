@@ -16,17 +16,27 @@ const Contact = () => {
     
     <div className="Enquiry-person">
         <h2 className='enquiry'>For Enquiry :</h2>
-        <h2 className='person-name'>Dr. Vijendra Singh</h2>
+        <h2 className='person-name'>Dr. Ajay Prasad	(Convenor)</h2>
         <p className='person-adress'>Organizing Chairs <br/>
           School of Computer Science,UPES,<br/>
           Bidholi Via-Prem Nagar<br/>
           Dehradun-248007</p>
 
           <p className="person-contact">
-          Email id: info@icmlde.org;<br/>
-          vijendra.singh@ddn.upes.ac.in<br/>
-          Whatsapp: 8800642397
+          Email id: <a href="mailto:aprasad@ddn.upes.ac.in">aprasad@ddn.upes.ac.in</a><br/>
           </p>
+
+
+          <h2 className='person-name'>Dr. Ajay Prasad	(Convenor)</h2>
+        <p className='person-adress'>Organizing Chairs <br/>
+          School of Computer Science,UPES,<br/>
+          Bidholi Via-Prem Nagar<br/>
+          Dehradun-248007</p>
+
+          <p className="person-contact">
+          Email id: <a href="mailto:aprasad@ddn.upes.ac.in">aprasad@ddn.upes.ac.in</a><br/>
+          </p>
+
     </div>
         
 

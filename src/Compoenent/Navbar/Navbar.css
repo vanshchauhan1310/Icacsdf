@@ -1,5 +1,6 @@
 .Navbar-wrapper {
   background-color: #2F2F30;
+  overflow-y: hidden;
 }
 
 .Navbar-container {
@@ -8,6 +9,7 @@
   align-items: center;
   padding: 1rem;
   padding-right: 60px;
+  overflow-y: hidden;
 }
 
 .Navbar-logo {
@@ -17,6 +19,7 @@
 .nav-heading {
   color: white;
   font-weight: 700;
+  overflow-y: hidden;
 }
 
 .Navbar-links ul {
