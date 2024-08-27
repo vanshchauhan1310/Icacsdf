@@ -27,14 +27,14 @@ const Contact = () => {
           </p>
 
 
-          <h2 className='person-name'>Dr. Ajay Prasad	(Convenor)</h2>
+          <h2 className='person-name'>Dr. Sushabhan Choudhury	(Convenor)</h2>
         <p className='person-adress'>Organizing Chairs <br/>
           School of Computer Science,UPES,<br/>
           Bidholi Via-Prem Nagar<br/>
           Dehradun-248007</p>
 
           <p className="person-contact">
-          Email id: <a href="mailto:aprasad@ddn.upes.ac.in">aprasad@ddn.upes.ac.in</a><br/>
+          Email id: <a href="mailto:schoudhury@ddn.upes.ac.in">	schoudhury@ddn.upes.ac.in</a><br/>
           </p>
 
     </div>
