@@ -12,7 +12,7 @@ const AboutHeader = () => {
     <p className='content-para'>
     <span className='para1'>The International Conference on Advancement in Cyber Security and Digital Forensics (ICACSDF - 2025) </span>is a premier forum that brings<br/> 
     together researchers, practitioners, and professionals from academia, industry, and government who are working in the field of cyber security,<br/> 
-    privacy, and digital forensics. The conference will be held in Dehradun, India during 25-27 March 2025. The conference will be <br/>
+    privacy, and digital forensics. The conference will be held in Dehradun, India during 10th – 11th April 2025. The conference will be <br/>
     technically co-sponsored by Springer.<br/>
     <br/>
     The conference will feature keynote speeches, technical presentations, workshops, tutorials, and invited talks. The technical sessions will<br/>
