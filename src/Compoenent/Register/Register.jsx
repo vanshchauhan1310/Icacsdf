@@ -19,13 +19,13 @@ const Register = () => {
         <table className='fees-table'>
       <tbody>
         <tr>
-          <td className='table-data'>Category</td>
-          <td className='table-data'>Registration Deadline</td>
+          <td className='table-data table-heading'>Category</td>
+          <td className='table-data table-heading'>Registration Deadline</td>
       
         </tr>
         <tr className='combined'>
           <td className='rowspan'>INDIAN DELEGATES (INR)</td>  
-          <td className='table-data'></td>
+          {/* <td className='table-data'></td> */}
      
         </tr>
         <tr>

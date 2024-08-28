@@ -43,6 +43,7 @@
     color: white;
     border-radius: 10px;
     padding: 10px;
+    text-align: left;
 }
 
 .table-data:last-child {
@@ -73,7 +74,10 @@
     height: auto;
     min-height: 50px;
 }
-
+.table-heading{
+    font-size: 55px;
+    text-align: center;
+}
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     .form-register, .fees, .payment {
