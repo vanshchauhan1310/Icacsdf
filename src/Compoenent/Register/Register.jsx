@@ -7,11 +7,21 @@ const Register = () => {
    <>
       <div className="Register-header">
         <h1 className='Register-heading'>Registrations</h1>
+        
     </div>
 
     <div className="form-register">
+      
+      <div className="Normal-register">
         <p className='form-heading'>Registration Link : </p>
         <a href='#' className='form-link'>https://forms.gl</a>
+      </div>
+     
+      <div className="tcp-register">
+        <p className='form-heading'>Technical Program Committee (TPC) Form : </p>
+        <a href='https://forms.gle/uPofiGge5Czu8nQz9' className='form-link'>https://forms.gl</a>
+      </div>
+       
     </div>
 
     <div className="fees">

@@ -174,8 +174,10 @@
         padding-top: 1.25rem;
     }
     .nameofmember {
-        font-size: 1.3rem;
+        font-size: 18px;
         padding-left: 1.75rem;
+        padding-right: 1.75rem;
+        padding-top: 10px;
     }
 }
 

@@ -21,7 +21,7 @@ const AboutHeader = () => {
       <br/>
     Prospective authors are invited to submit full and original research papers, which have <span className='para1'>NOT</span> been submitted or published elsewhere <br/>
     or under consideration in other conferences or journals. All submissions are to be in electronic (PDF and MS Word both) format through<br/>
-     conference website or e-mail. Authors may also submit their contributions directly to the <span className='para1'>Email id:</span> icacsdf@ddn.upes.ac.in</p>
+     conference website or e-mail. Authors may also submit their contributions directly to the <span className='para1'>Email id:</span> conference_socs@ddn.upes.ac.in</p>
     </div>
 
     <div className="upes-wrapper">

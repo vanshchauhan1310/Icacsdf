@@ -70,6 +70,22 @@
     font-weight: 900;
 }
 
+.form-register{
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+}
+
+.Normal-register{
+    display: flex;
+    gap: 10px;
+}
+
+.tcp-register{
+    display: flex;
+    gap: 10px;
+}
+
 .combined {
     height: auto;
     min-height: 50px;
@@ -169,6 +185,10 @@
 
     .payment-heading {
         font-size: 18px;
+    }
+
+    .form-heading{
+        width: 44%;
     }
 }
 
