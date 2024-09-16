@@ -14,39 +14,32 @@ const About = () => {
 
      <div className="event-schedule">
       <h1>Schedule</h1>
-      <p>Submission Deadline: December 2024</p>
      </div>
 
 
       <div className="event-timeline">
 
-        <div className="submision-timeline">
-
-        <div className="timeline-1">
-          <h1>Dec 24- <br/> Jan 25</h1>
-        </div>
-
-        <div className="info1">
-          <h1>Review Timeline</h1>
-        </div>
-
-        </div>
 
 
-        <div className="submision-deadline">
-          <div className="timeline-2">
-            <h1>31 Jan<br/> 2025</h1>
-          </div>
-
-          <div className="info2">
-            <h1>Submission Deadline<br/>
-              for Revised Papers</h1>
-            </div>
-          </div>
-
-        <div className="notification-deadline">
+      <div className="notification-deadline">
           <div className="timeline-3">
-            <h1>1st week<br/> of feb <br/>2025</h1>
+            <h1>18th Dec <br/> 2024</h1>
+          </div>
+
+          <div className="info3">
+            <h1>Submission  Deadline</h1>
+          </div>
+
+      </div>
+
+
+
+
+
+
+      <div className="notification-deadline">
+          <div className="timeline-3">
+            <h1>30th Jan <br/> 2025</h1>
           </div>
 
           <div className="info3">
@@ -54,6 +47,29 @@ const About = () => {
           </div>
 
       </div>
+
+        <div className="submision-timeline">
+
+        <div className="timeline-1">
+          <h1>14th-Feb 2025</h1>
+        </div>
+
+        <div className="info1">
+          <h1>Submission of Revised <br/>and Camera Ready Version</h1>
+        </div>
+
+        </div>
+
+
+        <div className="submision-deadline">
+          <div className="timeline-2">
+            <h1>11-12th  April <br/> 2025</h1>
+          </div>
+
+          <div className="info2">
+            <h1>Conference Date </h1>
+            </div>
+          </div>
 
 
 

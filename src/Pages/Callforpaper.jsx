@@ -45,27 +45,31 @@ We look forward to your valuable contributions to ICACSDF 2025.
         <table border={1} align='center'>
         <tr>
           <th style={cellStyle}>Submission Deadline</th>
-          <th style={cellStyle}>December 2024</th>
+          <th style={cellStyle}>18th December 2024</th>
         </tr>
-        <tr>
-          <th style={cellStyle2}>Review Time Plan</th>
-          <th style={cellStyle2}>December 2024 - January 2025</th>
-        </tr>
-        <tr>
-          <th style={cellStyle}>Submission Deadline for Revised Papers</th>
-          <th style={cellStyle}>End of January 2025</th>
-        </tr>
+
         <tr>
           <th style={cellStyle2}>Notification of Acceptance</th>
-          <th style={cellStyle2}>1st week of February 2025</th>
+          <th style={cellStyle2}>30th January 2025</th>
         </tr>
+
+        <tr>
+          <th style={cellStyle}>Submission of Revised <br/> Camera Ready Version</th>
+          <th style={cellStyle}>14th Feburary 2025</th>
+        </tr>
+
+        <tr>
+          <th style={cellStyle2}>Conference Date</th>
+          <th style={cellStyle2}>11-12th April 2025</th>
+        </tr>
+       
         </table>
 
         <div className="call-objective">
             <p className='paper-objective'>The conference invites original research papers, technical reports, and case studies on the following topics of interest but not limited to:</p>
             <ul>
-
-                <li>1	Privacy and Information Security</li>
+{/* 
+                <li>1	Privacy and Information Security</li> */}
                 <li style={listItemStyle}>Access Control and Intrusion Detection</li>
                 <li style={listItemStyle}>Biometrics and Cryptography</li>
                 <li style={listItemStyle}>Cloud Computing Security</li>

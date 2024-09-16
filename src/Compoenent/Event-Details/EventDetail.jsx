@@ -31,7 +31,7 @@ const EventDetail = () => {
         </div>
 
         <div className="Event-date">
-          <h1 className='date'>Date: 10th – 11th April 2025  </h1>
+          <h1 className='date'>Date: 11th – 12th April 2025  </h1>
         </div>
 
         <div className="event-venue">

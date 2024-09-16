@@ -40,24 +40,24 @@ const Register = () => {
         </tr>
         <tr>
           <td className='table-data'>Regular Author</td>
-          <td className='table-data'>11000</td>
+          <td className='table-data'>9000</td>
        
         </tr>
         <tr>
           <td className='table-data'>Students Author</td>
-          <td className='table-data'>10500</td>
+          <td className='table-data'>8000</td>
         </tr>
         <tr>
           <td className='table-data'>Industry Professional</td>
-          <td className='table-data'>12500</td>
-        </tr>
-        <tr>
-          <td className='table-data'>2nd paper, Regular Author</td>
           <td className='table-data'>10000</td>
         </tr>
+        {/* <tr>
+          <td className='table-data'>2nd paper, Regular Author</td>
+          <td className='table-data'>10000</td>
+        </tr> */}
         <tr>
-          <td className='table-data'>Listener (Non-Author/Co- Author/General Participants)</td>
-          <td className='table-data'>5000 (per person)</td>
+          <td className='table-data'>Other Participants</td>
+          <td className='table-data'>4000 (per person)</td>
         </tr>
 
         <tr className='combined'>
@@ -67,19 +67,19 @@ const Register = () => {
 
         <tr>
           <td className='table-data'>Regular Author</td>
-          <td className='table-data'>	350</td>
+          <td className='table-data'>	$200</td>
         </tr>
         <tr>
           <td className='table-data'>Students Author</td>
-          <td className='table-data'>300</td>
+          <td className='table-data'>$150</td>
         </tr>
-        <tr>
+        {/* <tr>
           <td className='table-data'>2nd paper, Regular Author</td>
           <td className='table-data'>250</td>
-        </tr>
+        </tr> */}
         <tr>
-          <td className='table-data'>Listener (Non-Author/Co- Author/General Participants)</td>
-          <td className='table-data'>150</td>
+          <td className='table-data'>Other Participants </td>
+          <td className='table-data'>$100</td>
         </tr>
 
 
@@ -94,7 +94,7 @@ const Register = () => {
         </tr>
         <tr>
           <td className='table-data'>Non-Author/General Participants</td>
-          <td className='table-data'>4000(Indian Rupees)per person</td>
+          <td className='table-data'>4000 (Indian Rupees) per person</td>
         </tr>
 
       </tbody>

@@ -21,6 +21,7 @@ const Navbar = () => {
             <li><a href="/committee">Committee</a></li>
             <li><a href="/callforpaper">Call for Paper</a></li>
             <li><a href="/register">Registration</a></li>
+            <li><a href="/review">Review Process</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
           <div className="hamburger" onClick={handleToggleMenu}>
