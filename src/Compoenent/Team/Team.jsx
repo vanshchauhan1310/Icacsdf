@@ -46,6 +46,10 @@ const Team = () => {
           </div>
         ))}
       </div>
+
+      <div className="classname">
+        
+      </div>
     </div>
   );
 };

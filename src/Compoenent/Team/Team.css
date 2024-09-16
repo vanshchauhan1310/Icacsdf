@@ -54,7 +54,11 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.125rem;
     color: white;
-    padding-left: 3rem;
+    padding-left: 70px;
+}
+
+.classname{
+    height: 10vh;
 }
 
 @media screen and (max-width: 1200px) {

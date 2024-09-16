@@ -38,7 +38,7 @@ const Callforpaper = () => {
 We invite authors to contribute their research to the ICACSDF 2025 conference. We welcome high-quality, original, and unpublished research papers on conceptual, constructive, empirical, experimental, or theoretical work related to Cyber Security and Digital Forensics. Submissions can include papers and <span className="call1">e-posters</span> addressing the conference themes, with figures, tables, and references to novel research material. Papers should be written in English, <span className="call1">according to the Springer LNCS format</span>, and thoroughly checked for correct grammar and spelling. Each submission must indicate its technical/scientific contribution and applicable problems, domains, or environments.
 The conference will cover themes such as Privacy and Information Security, Advancements in Cryptography, Cyber Threat Intelligence and Mitigation, Quantum Cryptography, Blockchain Technology, AI and ML in Cybersecurity, Digital Forensics, Security Policies, Auditing, and Assurance.
 Accepted papers will be sent to <span className="call1">Springer </span>for publication <span className="call1">(SCOPUS Indexed, waiting for approval)</span>. Selected papers will appear in <span className="call1">Scopus, DBLP, and Google Scholar,</span>  while agencies such as <span className="call1">CiteSeerX, EBSCO, and ProQuest</span> will also index contributions.
-Prospective authors must submit original research papers that have not been submitted or published elsewhere. Submissions should be in PDF and MS Word formats and can be made through the conference website or via email to <span className='call1'>conference_socs@ddn.upes.ac.in</span>.
+Prospective authors must submit original research papers that have not been submitted or published elsewhere. Submissions should be in PDF and MS Word formats and can be made through the conference website or via email to <span className='call1'> <a href="mailto:conference_socs@ddn.upes.ac.in">conference_socs@ddn.upes.ac.in</a></span>.
 We look forward to your valuable contributions to ICACSDF 2025.
         </p>
 
@@ -64,6 +64,8 @@ We look forward to your valuable contributions to ICACSDF 2025.
         <div className="call-objective">
             <p className='paper-objective'>The conference invites original research papers, technical reports, and case studies on the following topics of interest but not limited to:</p>
             <ul>
+
+                <li>1	Privacy and Information Security</li>
                 <li style={listItemStyle}>Access Control and Intrusion Detection</li>
                 <li style={listItemStyle}>Biometrics and Cryptography</li>
                 <li style={listItemStyle}>Cloud Computing Security</li>

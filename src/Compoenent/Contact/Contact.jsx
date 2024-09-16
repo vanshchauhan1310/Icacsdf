@@ -7,7 +7,7 @@ const Contact = () => {
 <>
 
     <div className="Contact-header">
-    <h1 className='contact-heading'>Contact Us !</h1>
+    <h1 className='contact-heading'>Contact Us </h1>
     <p className="contact-para">Reach out, we’d love to hear from you</p>
     </div>
 

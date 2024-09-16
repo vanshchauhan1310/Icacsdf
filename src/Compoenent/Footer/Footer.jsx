@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="contact-section">
             <h2 className='Contact-heading'>Contact Us</h2>
             <p className='Contact-para'>Contact
-UPES, Bidholi Campus, Dehradun <br/> P.O. Bidholi Via Premnagar, <br/> Dehradun-248007 <br/> Phone: 1800 1028 737 <br/> Email: email@ddn.upes.ac.in</p>
+UPES, Bidholi Campus, Dehradun <br/> P.O. Bidholi Via Premnagar, <br/> Dehradun-248007 <br/> Email: <a href="mailto:conference_socs@ddn.upes.ac.in">conference_socs@ddn.upes.ac.in</a></p>
         </div>
     </div>
 </div>
