@@ -24,7 +24,11 @@
 
 .Aboutcontent p {
     font-size: 14px;
-    text-align: center;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
 }
 
 .event-schedule h1 {
@@ -57,6 +61,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .timeline-1 h1, .timeline-2 h1, .timeline-3 h1 {
@@ -130,6 +135,7 @@
 
     .Aboutcontent p {
         font-size: 16px;
+        text-align: justify !important;
     }
 
     .event-schedule h1 {
@@ -162,6 +168,7 @@
 
     .Aboutcontent p {
         font-size: 18px;
+        text-align: justify !important;
     }
 
     .event-timeline {
@@ -200,6 +207,7 @@
 
     .Aboutcontent p {
         font-size: 22px;
+        text-align: justify !important;
     }
 
     .event-timeline {
@@ -243,6 +251,7 @@
 
     .Aboutcontent p {
         font-size: 25px;
+        text-align: justify !important;
     }
 
     .event-timeline {

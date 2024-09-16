@@ -3,6 +3,7 @@
     font-weight: 600;
     color: black;
     margin: unset;
+    overflow: hidden;
 }
 
 .event-timming {
@@ -47,6 +48,7 @@
     font-weight: 700;
     color: black;
     text-align: center;
+    overflow: hidden;
 }
 
 .venue {
@@ -61,6 +63,7 @@
     font-weight: 700;
     color: black;
     text-align: center;
+    overflow: hidden;
 }
 
 
