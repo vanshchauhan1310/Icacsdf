@@ -2,6 +2,9 @@ export const ConferenceData = [
     {
       title: "Biometrics & Cryptography",
       imageSrc: "/images/Biometric.png",
+      hoverText: "Biometrics refers to the measurement and statistical analysis of people's unique physical and behavioral characteristics. Common biometric methods include: Fingerprint recognition: Analyzing the unique patterns of ridges and valleys on fingertips. Facial recognition: Identifying or verifying a person by analyzing facial features. Iris recognition: Using the unique patterns in the colored part of the eye. Voice recognition: Identifying a person based on the characteristics of their voice. Cryptography is the practice of securing information by transforming it into an unreadable format. It ensures confidentiality, integrity, and authenticity of data. Key concepts include: Encryption: The process of converting plaintext into ciphertext to protect information. Decryption: The process of converting ciphertext back into plaintext. Public key infrastructure (PKI): Uses pairs of keys (public and private) to secure communications. Hash functions: Transform data into a fixed-size string of characters, which is typically a digest that uniquely represents the data."
+
+
     },
     {
       title: "Cloud Computing Security",
