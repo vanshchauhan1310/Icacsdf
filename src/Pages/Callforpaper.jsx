@@ -67,25 +67,185 @@ We look forward to your valuable contributions to ICACSDF 2025.
 
         <div className="call-objective">
             <p className='paper-objective'>The conference invites original research papers, technical reports, and case studies on the following topics of interest but not limited to:</p>
-            <ul>
-{/* 
-                <li>1	Privacy and Information Security</li> */}
-                <li style={listItemStyle}>Access Control and Intrusion Detection</li>
-                <li style={listItemStyle}>Biometrics and Cryptography</li>
-                <li style={listItemStyle}>Cloud Computing Security</li>
-                <li style={listItemStyle}>Computer Forensics</li>
-                <li style={listItemStyle}>Cyber Physical Systems Security</li>
-                <li style={listItemStyle}>Database and System Security</li>
-                <li style={listItemStyle}>Information Hiding and Watermarking</li>
-                <li style={listItemStyle}>Internet of Things Security</li>
-                <li style={listItemStyle}>Key Management and Secure Communication</li>
-                <li style={listItemStyle}>Malware Analysis and Detection</li>
-                <li style={listItemStyle}>Network Security and Privacy</li>
-                <li style={listItemStyle}>Security Protocols</li>
-                <li style={listItemStyle}>Security Testing and Auditing</li>
-                <li style={listItemStyle}>Software Security</li>
-                <li style={listItemStyle}>Web Security</li>
-            </ul>
+
+        <div className="conference-track">
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Privacy and Information Security</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Ensuring fairness in algorithms and protecting privacy</li>
+                      <li style={listItemStyle}>Safeguarding data and information security</li>
+                      <li style={listItemStyle}>Web security and privacy measures</li>
+                      <li style={listItemStyle}>Web security and privacy measures</li>
+                   </ul>
+               </div>
+          </div>
+          
+
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Advancements in Cryptography</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Protocols for secure communication</li>
+                      <li style={listItemStyle}>Lightweight cryptography for resource-constrained devices</li>
+                      <li style={listItemStyle}>Securing IoT devices and cloud environments</li>
+                      <li style={listItemStyle}>Encryption techniques including homomorphic encryption</li>
+                   </ul>
+               </div>
+          </div>
+
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Cyber Threat Intelligence and Mitigation</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Implementing effective intrusion detection and prevention systems</li>
+                      <li style={listItemStyle}>Securing Cyber-Physical Systems (CPS)</li>
+                      <li style={listItemStyle}>Addressing security challenges in Industry 5.0</li>
+                      <li style={listItemStyle}>Frameworks for Cyber Threat Intelligence (CTI) development</li>
+                      <li style={listItemStyle}>Digital forensics and malware analysis for actionable threat intelligence</li>
+
+                   </ul>
+               </div>
+          </div>
+
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Quantum Cryptography</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Adapting cryptography for quantum-resistant security</li>
+                      <li style={listItemStyle}>Quantum key distribution for secure communication</li>
+                      <li style={listItemStyle}>Generating quantum random numbers for enhanced security</li>
+                      <li style={listItemStyle}>Exploring quantum-safe algorithms</li>
+                   </ul>
+               </div>
+          </div>
+
+
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Blockchain Technology: Innovations and Applications</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Utilizing blockchain technology in various sectors such as healthcare, finance, and governance</li>
+                   
+                   </ul>
+               </div>
+          </div>
+
+
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Role of AI & ML in Cybersecurity</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Detecting and mitigating cyber threats using AI and ML</li>
+                      <li style={listItemStyle}>Addressing challenges such as deep fake algorithms</li>
+                      <li style={listItemStyle}>Accelerating threat detection and response</li>
+                      <li style={listItemStyle}>Enhancing endpoint security</li>
+                      <li style={listItemStyle}>Automating cybersecurity processes and facilitating threat intelligence sharing</li>
+
+                   </ul>
+               </div>
+          </div>
+
+
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Security Policies, Auditing, and Assurance</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Auditing and ensuring compliance with security policies</li>
+                      <li style={listItemStyle}>Conducting risk analysis and implementing appropriate measures</li>
+                      <li style={listItemStyle}>Establishing standards for security and privacy</li>
+                      <li style={listItemStyle}>Managing access to assets and monitoring processes</li>
+                      <li style={listItemStyle}>Governance, risk, and compliance (GRC) frameworks</li>
+                   </ul>
+               </div>
+          </div>
+
+
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Digital Forensic</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Digital Evidence Extraction using Machine learning</li>
+                      <li style={listItemStyle}>Malware Analysis and Attribution</li>
+                      <li style={listItemStyle}>Forensics analysis and visualization of Big Data</li>
+                      <li style={listItemStyle}>Non-traditional forensic scenarios/contexts</li>
+
+                      <li style={listItemStyle}>Network and distributed system forensics</li>
+                      <li style={listItemStyle}>Mobile and embedded device forensics</li>
+                      <li style={listItemStyle}>Cloud and virtualized environments</li>
+                      <li style={listItemStyle}>Medical devices</li>
+
+                      <li style={listItemStyle}>Smart power grids</li>
+                      <li style={listItemStyle}>Smart buildings</li>
+                      <li style={listItemStyle}>Virtual currency</li>
+                      <li style={listItemStyle}>Digital evidence and the law</li>
+
+                      <li style={listItemStyle}>Anti-forensics and anti-anti-forensics</li>
+                   </ul>
+               </div>
+          </div>
+
+
+
+          <div className="track">
+               <div className="track-heading">
+                   <h1>Internet of Things Security</h1>
+               </div>
+              
+               <div className="track-content">
+                   <ul>
+                      <li style={listItemStyle}>Ensuring fairness in algorithms and protecting privacy</li>
+                      <li style={listItemStyle}>Safeguarding data and information security</li>
+                   </ul>
+               </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
 
     </div>

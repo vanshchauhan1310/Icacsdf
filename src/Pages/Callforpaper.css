@@ -63,6 +63,32 @@ li {
     margin-bottom: 8px;
 }
 
+
+.conference-track{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.track{
+    flex: 48%;
+}
+
+.track-heading {
+    padding: 20px;
+    background-color: #9F71A357;
+    width: 100%;
+
+}
+.track-heading h1{
+    font-size: 24px;
+}
+
+.track-content{
+    padding-top: 20px;
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 1400px) {
     .callforpaper-content {
