@@ -59,7 +59,7 @@
 }
 
 /* Show hamburger menu on smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .Navbar-links ul {
     display: none;
   }
@@ -67,6 +67,17 @@
     display: block;
   }
 }
+
+
+/* @media only screen and (max-width: 1024px) {
+  .Navbar-links a {
+    font-size: 14px;
+  }
+  .button{
+    font-size: 14px;
+  }
+
+} */
 
 /* Show menu when hamburger is clicked */
 .Navbar-links ul.show {
@@ -78,6 +89,7 @@
   background-color: #2F2F30;
   padding: 10px;
   border-bottom: 1px solid #ccc;
+  z-index: 1;
 }
 
 .Navbar-links ul.show li {
@@ -89,4 +101,5 @@
 .Navbar-links ul.show li:last-child {
   border-bottom: none;
 }
+
 
